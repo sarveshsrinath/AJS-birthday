@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/justifiedGallery.min.css" />
     <!--Other JS libraries-->
-    
     <script src="js/JustifiedGallery/jquery.justifiedGallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </head>
   <body>
     <header class="bg-[#FFF1E2] px-10 pt-10">
-
       <!-- Navigation bar -->
       <nav
         class="bg-white flex justify-between items-center p-3 px-10 border-2 border-[#F7A652] mb-5 w-full rounded-full"
@@ -35,7 +33,8 @@
           </svg>
           <span class="mb-0">
             <span class="text-[#F7A652] leading-3">Surya's</span><br />
-            Birthday</span>
+            Birthday</span
+          >
         </div>
 
         <ul class="flex gap-5">
@@ -90,7 +89,7 @@
           </li>
         </ul>
       </nav>
-      
+
       <!--Slider-->
       <swiper-container class="mySwiper" navigation="true">
         <swiper-slide
@@ -139,10 +138,10 @@
       <h2 class="font-bold">
         ✨<span class="text-[#FF0000]">Star</span>✨ of the Show!
       </h2>
-      <div class="flex justify-center items-center  my-10 w-full ">
+      <div class="flex justify-center items-center my-10 w-full">
         <img
           src="images/family-images/boy-photo.png"
-          class="w-80 rounded-full border-5 border-[#F7A652]"
+          class="w-80 rounded-full border-5 border-[#F7A652] hover:scale-105 transition duration-300"
         />
       </div>
       <h2 class="font-bold">
@@ -172,56 +171,118 @@
         ></iframe>
       </div>
     </section>
-    
-    
+    tim
     <section
       class="bg-[url(images/backgrounds/timeline-bg.png)] bg-cover bg-center p-10 px-20 flex justify-center flex-col text-center text-4xl"
     >
-      <h2 class="font-bold">
-        My <span class="text-[#FE44AB]">Timeline</span>
-      </h2>
+      <h2 class="font-bold">My <span class="text-[#FE44AB]">Timeline</span></h2>
       <div class="flex justify-between gap-5">
-            <div>
-                <div class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12 ">
-                    <img src="images/family-images/timeline1.png" alt="" class="rounded-sm w-full mb-3">
-                    <div class="px-3">
-                    <h2 class="font-bold text-2xl mb-2">Crashed On Earth</h2>
-                    <!-- date -->
-                    <span class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl ">23 July,2023</span>
-                    </div>
-                    
-                </div>
-                <div>
-                    <div class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12">
-                        <img src="images/family-images/timeline3.png" alt="" class="rounded-sm w-full mb-3">
-                        <div class="px-3">
-                        <h2 class="font-bold text-2xl mb-2">First Steps Walked</h2>
-                        <!-- date -->
-                        <span class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl ">23 July,2024</span>
-                        </div>
-                        
-                    </div>
-                </div>
-               
+        <div>
+          <div
+            class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12 mb-5"
+          >
+            <img
+              src="images/family-images/timeline1.png"
+              alt=""
+              class="rounded-sm w-full mb-3 hover:scale-95 transition duration-300"
+            />
+            <div class="px-3">
+              <h2 class="font-bold text-2xl mb-2">Crashed On Earth</h2>
+              <!-- date -->
+              <span
+                class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl"
+                >23 July,2023</span
+              >
             </div>
-           
-            <div>
-            
+          </div>
+          <div>
+            <div
+              class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12"
+            >
+              <img
+                src="images/family-images/timeline3.png"
+                alt=""
+                class="rounded-sm w-full mb-3 hover:scale-95 transition duration-300"
+              />
+              <div class="px-3">
+                <h2 class="font-bold text-2xl mb-2">First Steps Walked</h2>
+                <!-- date -->
+                <span
+                  class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl"
+                  >23 July,2024</span
+                >
+              </div>
             </div>
-            <div class="justify-center flex-col flex">
-                <div class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12">
-                    <img src="images/family-images/timeline2.png" alt="" class="rounded-sm w-full mb-3">
-                    <div class="px-3">
-                    <h2 class="font-bold text-2xl mb-2">My First Birthday</h2>
-                    
-                    <span class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl ">23 Dec,2023</span>
-                    </div>
-                    
-                </div>
+          </div>
+        </div>
+        <div class="flex justify-around flex-col relative">
+          <div class="border-2 border-[#FE44AB] h-5/6 absolute right-1/2"></div>
+          <div
+            class="border-2 border-[#fE44ab] p-3 rounded-full z-10 bg-[#FFDBEF]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M92,140a12,12,0,1,1,12-12A12,12,0,0,1,92,140Zm72-24a12,12,0,1,0,12,12A12,12,0,0,0,164,116Zm-12.27,45.23a45,45,0,0,1-47.46,0,8,8,0,0,0-8.54,13.54,61,61,0,0,0,64.54,0,8,8,0,0,0-8.54-13.54ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88.11,88.11,0,0,0-84.09-87.91C120.32,56.38,120,71.88,120,72a8,8,0,0,0,16,0,8,8,0,0,1,16,0,24,24,0,0,1-48,0c0-.73.13-14.3,8.46-30.63A88,88,0,1,0,216,128Z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            class="border-2 border-[#fE44ab] p-3 rounded-full z-10 bg-[#FFDBEF]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M208.06,184H152a8,8,0,0,0-8,8v12a36,36,0,0,0,72.05,0V192A8,8,0,0,0,208.06,184Zm-8,20a20,20,0,0,1-40,0v-4h40ZM104,160h-56a8,8,0,0,0-8,8v12A36,36,0,0,0,112,180V168A8,8,0,0,0,104,160Zm-8,20a20,20,0,0,1-40,0v-4H96ZM76,16C64.36,16,53.07,26.31,44.2,45c-13.93,29.38-18.56,73,.29,96a8,8,0,0,0,6.2,2.93h50.55a8,8,0,0,0,6.2-2.93c18.85-23,14.22-66.65.29-96C98.85,26.31,87.57,16,76,16ZM97.15,128H54.78c-11.4-18.1-7.21-52.7,3.89-76.11C65.14,38.22,72.17,32,76,32s10.82,6.22,17.3,19.89C104.36,75.3,108.55,109.9,97.15,128Zm57.61,40h50.55a8,8,0,0,0,6.2-2.93c18.85-23,14.22-66.65.29-96C202.93,50.31,191.64,40,180,40s-22.89,10.31-31.77,29c-13.93,29.38-18.56,73,.29,96A8.05,8.05,0,0,0,154.76,168Zm8-92.11C169.22,62.22,176.25,56,180,56s10.82,6.22,17.29,19.89c11.1,23.41,15.29,58,3.9,76.11H158.85C147.45,133.9,151.64,99.3,162.74,75.89Z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            class="border-2 border-[#fE44ab] p-3 rounded-full z-10 bg-[#FFDBEF]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M232,112a24,24,0,0,0-24-24H136V79a32.06,32.06,0,0,0,24-31c0-28-26.44-45.91-27.56-46.66a8,8,0,0,0-8.88,0C122.44,2.09,96,20,96,48a32.06,32.06,0,0,0,24,31v9H48a24,24,0,0,0-24,24v23.33a40.84,40.84,0,0,0,8,24.24V200a24,24,0,0,0,24,24H200a24,24,0,0,0,24-24V159.57a40.84,40.84,0,0,0,8-24.24ZM112,48c0-13.57,10-24.46,16-29.79,6,5.33,16,16.22,16,29.79a16,16,0,0,1-32,0ZM40,112a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8v23.33c0,13.25-10.46,24.31-23.32,24.66A24,24,0,0,1,168,136a8,8,0,0,0-16,0,24,24,0,0,1-48,0,8,8,0,0,0-16,0,24,24,0,0,1-24.68,24C50.46,159.64,40,148.58,40,135.33Zm160,96H56a8,8,0,0,1-8-8V172.56A38.77,38.77,0,0,0,62.88,176a39.69,39.69,0,0,0,29-11.31A40.36,40.36,0,0,0,96,160a40,40,0,0,0,64,0,40.36,40.36,0,0,0,4.13,4.67A39.67,39.67,0,0,0,192,176c.38,0,.76,0,1.14,0A38.77,38.77,0,0,0,208,172.56V200A8,8,0,0,1,200,208Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="justify-center flex-col flex">
+          <div
+            class="bg-white border-2 border-black p-2 text-left rounded-lg w-11/12"
+          >
+            <img
+              src="images/family-images/timeline2.png"
+              alt=""
+              class="rounded-sm w-full mb-3 hover:scale-95 transition duration-300"
+            />
+            <div class="px-3">
+              <h2 class="font-bold text-2xl mb-2">My First Birthday</h2>
+
+              <span
+                class="bg-[#FF34A8] text-white rounded-full p-1 px-3 text-xl"
+                >23 Dec,2023</span
+              >
             </div>
-           
+          </div>
+        </div>
       </div>
-     
     </section>
 
     <!-- Time & Venue -->
@@ -246,67 +307,63 @@
         ></iframe>
       </div>
     </section>
-    
+
     <!-- My Family -->
     <section
-    class="bg-[url(images/backgrounds/family-bg.png)] bg-cover bg-center p-10 flex justify-center flex-col text-center text-4xl"
+      class="bg-[url(images/backgrounds/family-bg.png)] bg-cover bg-center p-10 flex justify-center flex-col text-center text-4xl"
     >
-        <h2 class="font-bold">My Family</h2>
-        <div class="flex justify-around items-center my-10 w-full px-52">
-            <div>
-            <img
+      <h2 class="font-bold">My Family</h2>
+      <div class="flex justify-around items-center my-10 w-full px-52">
+        <div>
+          <img
             src="images/family-images/dad-photo.png"
             class="w-52 rounded-full border-5 border-[#F7A652]"
-            />
-            <p class="text-[25px] font-normal">Dada</p>
-            </div>
-            <div>
-            <img
+          />
+          <p class="text-[25px] font-normal">Dada</p>
+        </div>
+        <div>
+          <img
             src="images/family-images/mom-photo.png"
             class="w-52 rounded-full border-5 border-[#F7A652]"
-            />
-            <p class="text-[25px] font-normal">Mumma</p>
-            </div>
-            <div>
-            <img
+          />
+          <p class="text-[25px] font-normal">Mumma</p>
+        </div>
+        <div>
+          <img
             src="images/family-images/grandpa-photo.png"
-            class="w-52  rounded-full border-5 border-[#F7A652]"
-            />
-            <p class="text-[25px]  font-normal">Thatha</p>
-            </div>
-            <div>
-            <img
+            class="w-52 rounded-full border-5 border-[#F7A652]"
+          />
+          <p class="text-[25px] font-normal">Thatha</p>
+        </div>
+        <div>
+          <img
             src="images/family-images/grandma-photo.png"
             class="w-52 rounded-full border-5 border-[#F7A652]"
-            />
-            <p class="text-[25px] font-normal">Ammama</p>
-            </div>
+          />
+          <p class="text-[25px] font-normal">Ammama</p>
         </div>
+      </div>
     </section>
 
     <!-- Gallery -->
-    <section
-    class="p-10 flex justify-center flex-col text-center text-4xl"
-  >
-    <h2 class="font-bold">Gallery</h2>
-    <div class="flex flex-col justify-center items-center my-4">
+    <section class="p-10 flex justify-center flex-col text-center text-4xl">
+      <h2 class="font-bold">Gallery</h2>
+      <div class="flex flex-col justify-center items-center my-4"></div>
+    </section>
 
+    <!-- Ads -->
 
-        
-    </div>
-  </section>
+    <footer>
+      <div>
+        <div class="flex justify-evenly items-start">
+          <h3 class="font-bold">SOCIAL MEDIA HANDLES</h3>
+          <img src="" alt="" class="w-40 h-40 border-black border-2" />
+        </div>
 
-  <!-- Ads -->
+        <div></div>
 
-<footer class="bg-[url(images/backgrounds/footer.png)] bg-contain bg-no-repeat h-full w-full">
-    <div>
-        <h3 class="bold text-white" >SOCIAL MEDIA HANDLES</h3>
-
-    </div>
-    <div></div>
-    <div></div>
-</footer>
-
-
-     
+        <div></div>
+      </div>
+    </footer>
+  </body>
 </html>
